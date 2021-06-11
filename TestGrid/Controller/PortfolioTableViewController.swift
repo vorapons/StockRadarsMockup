@@ -95,6 +95,10 @@ class PortfolioTableViewController: UITableViewController {
         return output
     }
     
+    override open var shouldAutorotate: Bool {
+        return false
+    }
+    
 
     /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
