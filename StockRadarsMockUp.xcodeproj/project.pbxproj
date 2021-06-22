@@ -19,7 +19,10 @@
 		AF207D0E266CF636000AE794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF207D0D266CF636000AE794 /* Assets.xcassets */; };
 		AF207D11266CF636000AE794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF207D0F266CF636000AE794 /* LaunchScreen.storyboard */; };
 		AF207D1B266D3FD1000AE794 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF207D1A266D3FD1000AE794 /* CollectionViewCell.swift */; };
+		AF27880D2678987B0072D2B4 /* IndicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27880C2678987B0072D2B4 /* IndicesList.swift */; };
+		AF31E4AB267B665900834217 /* IndiesListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF31E4AA267B665900834217 /* IndiesListViewCell.swift */; };
 		AF77D0D5266F4C7300B9DE04 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AF77D0D4266F4C7300B9DE04 /* SDWebImage */; };
+		AFC647DA26789A4900E2D8A7 /* AddIndicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC647D926789A4900E2D8A7 /* AddIndicesViewController.swift */; };
 		AFF7366E266E378C00AAAD3F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7366D266E378C00AAAD3F /* MenuViewController.swift */; };
 		AFF73670266E3BAA00AAAD3F /* MenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF7366F266E3BAA00AAAD3F /* MenuViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -39,6 +42,9 @@
 		AF207D10266CF636000AE794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF207D12266CF636000AE794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF207D1A266D3FD1000AE794 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AF27880C2678987B0072D2B4 /* IndicesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicesList.swift; sourceTree = "<group>"; };
+		AF31E4AA267B665900834217 /* IndiesListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiesListViewCell.swift; sourceTree = "<group>"; };
+		AFC647D926789A4900E2D8A7 /* AddIndicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndicesViewController.swift; sourceTree = "<group>"; };
 		AFF7366D266E378C00AAAD3F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		AFF7366F266E3BAA00AAAD3F /* MenuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +67,7 @@
 				AFF7366D266E378C00AAAD3F /* MenuViewController.swift */,
 				AF165304266E724E00A701BB /* PortfolioTableViewController.swift */,
 				AF207D08266CF634000AE794 /* IndiceCollectionViewController.swift */,
+				AFC647D926789A4900E2D8A7 /* AddIndicesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -71,6 +78,7 @@
 				AFF7366F266E3BAA00AAAD3F /* MenuViewCell.swift */,
 				AF165308266E81FA00A701BB /* PortfolioTableViewCell.swift */,
 				AF207D1A266D3FD1000AE794 /* CollectionViewCell.swift */,
+				AF31E4AA267B665900834217 /* IndiesListViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -79,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AF1CFAFB266DF9C2006F323F /* indice.swift */,
+				AF27880C2678987B0072D2B4 /* IndicesList.swift */,
 				AF165302266E551600A701BB /* MenuDiffableDataSource.swift */,
 				AF165306266E72C400A701BB /* Portfolio.swift */,
 			);
@@ -199,8 +208,11 @@
 				AF207D05266CF634000AE794 /* AppDelegate.swift in Sources */,
 				AFF73670266E3BAA00AAAD3F /* MenuViewCell.swift in Sources */,
 				AF165303266E551600A701BB /* MenuDiffableDataSource.swift in Sources */,
+				AF31E4AB267B665900834217 /* IndiesListViewCell.swift in Sources */,
 				AF207D07266CF634000AE794 /* SceneDelegate.swift in Sources */,
+				AF27880D2678987B0072D2B4 /* IndicesList.swift in Sources */,
 				AF165305266E724E00A701BB /* PortfolioTableViewController.swift in Sources */,
+				AFC647DA26789A4900E2D8A7 /* AddIndicesViewController.swift in Sources */,
 				AF1CFAFC266DF9C2006F323F /* indice.swift in Sources */,
 				AFF7366E266E378C00AAAD3F /* MenuViewController.swift in Sources */,
 				AF165309266E81FA00A701BB /* PortfolioTableViewCell.swift in Sources */,
